@@ -17,7 +17,7 @@ let prom3 = new Promise((resolve) => {
   }, time);
 });
 const output = document.getElementById("output");
-output.innerHTML = ` <tr>
+output.innerHTML = ` <tr id="loading">
 <td>Loading...</td>
 <td>Loading...</td>
 </tr>`;
